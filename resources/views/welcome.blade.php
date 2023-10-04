@@ -51,9 +51,9 @@
                         </a>
                         <nav class="nav-main mainmenu-nav d-none d-xl-block">
                             <ul class="mainmenu">
-                                <li class="has-droupdown">
-                                    <a class="nav-link" href="#">Home</a>
-                                    <ul class="submenu menu-link1">
+                                <li>
+                                    <a class="nav-item" href="#">Home</a>
+                                    {{-- <ul class="submenu menu-link1">
                                         <li class="menu-item">
                                             <a class="tag" href="#">Multipages</a>
                                             <ul>
@@ -86,7 +86,7 @@
                                                 <li><a href="onepage-eleven.html">Branding-Agency</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> --}}
                                 </li>
                                 <li class="has-droupdown">
                                     <a class="nav-link" href="#">Services</a>

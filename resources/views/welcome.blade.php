@@ -182,9 +182,30 @@
                                 <a class="menu-link" href="#">Home</a>
                             </li>
                             <li class="menu-item"><a class="menu-link" href="about-us.html">About Us</a></li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="#">Our Services</a>
+                            <li class="has-droupdown menu-item">
+                                <a class="menu-link" href="#">Services</a>
+                                <ul class="submenu">
+                                    <li class="menu-item">
+                                        <a href="#">Website Development</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Mobile App Development</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Software Development</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">UI/UX Design</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Software Testing</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Graphic Design</a>
+                                    </li>
+                                </ul>
                             </li>
+                            
                             <li class="menu-item menu-item"><a class="menu-link" href="#">Contact</a></li>
                         </ul>
                     </nav>
@@ -696,7 +717,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 d-md-none d-lg-block">
                         <div class="about-image-v-inner">
                             <div class="image-area">
                                 <img class="mt--110 img-1" src="assets/images/about/main/about-03.jpg" alt="BUsiness_image">

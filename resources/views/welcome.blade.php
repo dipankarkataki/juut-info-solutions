@@ -717,7 +717,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-lg-6 d-sm-none d-md-none d-lg-block d-xl-block">
+                    <div class="col-lg-6 d-none d-md-none d-lg-block d-xl-block">
                         <div class="about-image-v-inner">
                             <div class="image-area">
                                 <img class="mt--110 img-1" src="assets/images/about/main/about-03.jpg" alt="BUsiness_image">

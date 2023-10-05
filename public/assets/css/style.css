@@ -15349,7 +15349,7 @@ body.sal-disabled [data-sal|=flip] {
   margin-right: 36px;
 }
 .main-header .nav-main ul li a {
-  padding: 48px 0;
+  padding: 35px 0;
   display: block;
   color: #1C2539;
   font-size: 16px;
@@ -17291,7 +17291,7 @@ body.home-eleven #menu-btn:hover {
 
 /* elements style hear  */
 .rts-btn {
-  padding: 17px 30px;
+  padding: 15px 30px;
   min-width: max-content;
   font-size: 16px;
   line-height: 21px;

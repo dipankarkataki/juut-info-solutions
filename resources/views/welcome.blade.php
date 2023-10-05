@@ -89,16 +89,16 @@
                                     <a class="nav-link" href="#">Services</a>
                                     <ul class="submenu menu-link3">
                                         <li class="sub-droupdown">
-                                            <a class="nav-item" href="contactus.html">Website Development</a>
-                                            <a class="nav-item" href="contactus.html">Mobile App Development</a>
-                                            <a class="nav-item" href="contactus.html">Software Development</a>
-                                            <a class="nav-item" href="contactus.html">UI/UX Design</a>
-                                            <a class="nav-item" href="contactus.html">Software Testing</a>
-                                            <a class="nav-item" href="contactus.html">Graphic Design</a>
+                                            <a class="nav-item" href="#">Website Development</a>
+                                            <a class="nav-item" href="#">Mobile App Development</a>
+                                            <a class="nav-item" href="#">Software Development</a>
+                                            <a class="nav-item" href="#">UI/UX Design</a>
+                                            <a class="nav-item" href="#">Software Testing</a>
+                                            <a class="nav-item" href="#">Graphic Design</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a class="nav-item" href="contactus.html">Contact</a></li>
+                                <li><a class="nav-item" href="#">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="call-area">
@@ -185,7 +185,7 @@
                             <li class="menu-item">
                                 <a class="menu-link" href="#">Our Services</a>
                             </li>
-                            <li class="menu-item menu-item"><a class="menu-link" href="contactus.html">Contact</a></li>
+                            <li class="menu-item menu-item"><a class="menu-link" href="#">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="social-wrapper-two menu mobile-menu">

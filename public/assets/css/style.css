@@ -15362,6 +15362,7 @@ body.sal-disabled [data-sal|=flip] {
   position: absolute;
   content: "";
   left: 0;
+  top:70%;
   bottom: 50px;
   height: 2px;
   width: 0%;

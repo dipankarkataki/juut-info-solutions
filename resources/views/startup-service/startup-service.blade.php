@@ -44,7 +44,7 @@
                             </path>
                         </svg>
                     </div>
-                    <h5 class="title">Apps & Software Solutions</h5>
+                    <h5 class="title">Website, Apps & Software Solutions</h5>
                     <p class="disc">
                         Empower your business with tailored software solutions that drive growth and efficiency.
                         Explore a world of possibilities with our expertise.

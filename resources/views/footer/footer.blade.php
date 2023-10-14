@@ -1,4 +1,4 @@
-<div class="rts-footer-area rts-section-gap footer-two footer-bg-two mt--120 mt_md--80 mt_sm--60">
+<div class="rts-footer-area rts-section-gap footer-two footer-bg-two mt--120 mt_md--80 mt_sm--60"  id="contact">
     <div class="container">
         <div class="row">
             <!-- single wized -->
@@ -48,9 +48,9 @@
                             </div>
                             <div class="disc">
                                 <span>Call Us 24/7</span>
-                                <a href="#" class="mb-3">+91-9874768819 (India)</a>
-                                <a href="#" class="mb-3">+1 224-518-4779 (Ohio, USA)</a>
-                                <a href="#" class="mb-3">+1 551-689-9431 (New Jersey, USA)</a>
+                                <a href="#" class="mb-3">+91-9874768819 (IN)</a>
+                                <a href="#" class="mb-3">+1 224-518-4779 (OH, USA)</a>
+                                <a href="#" class="mb-3">+1 551-689-9431 (NJ, USA)</a>
                                 <a href="#" class="mb-3">+65-98925779 (Singapore)</a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                             </div>
                             <div class="disc">
                                 <span>Our Location</span>
-                                <a href="#">Lakhiminagar, Guwahati <br>
+                                <a href="#">Lakhiminagar, Lakhiminagar Road, Guwahati <br>
                                     Assam -781036 (India)</a>
                             </div>
                         </div>

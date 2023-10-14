@@ -24,9 +24,9 @@
                         <div class="single d-flex flex-row align-items-center">
                             <i class="fas fa-phone-alt"></i>
                             <div>
-                                <a href="#">+91-9874768819 (India)</a><br>
-                                <a href="#">+1 224-518-4779 (Ohio, USA)</a><br>
-                                <a href="#"> +1 551-689-9431 (New Jersey, USA)</a>
+                                <a href="#">+91-9874768819 (IN)</a><br>
+                                <a href="#">+1 224-518-4779 (OH, USA)</a><br>
+                                <a href="#"> +1 551-689-9431 (NJ, USA)</a><br>
                                 <a href="#"> +65-98925779 (Singapore)</a>
                             </div>
 
@@ -41,7 +41,7 @@
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="#">Lakhiminagar, Guwahati-36, Assam (India)</a>
+                            <a href="#">Lakhiminagar, Lakhiminagar Road, Guwahati-36, Assam (India)</a>
                         </div>
                         <!-- single ENd -->
                     </div>

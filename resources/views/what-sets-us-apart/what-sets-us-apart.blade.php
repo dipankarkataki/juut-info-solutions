@@ -1,5 +1,5 @@
 <div class="rts-section-gap bg-experience-10">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="experience-ten-area-center">
@@ -8,8 +8,8 @@
                     </div>
 
                     <div class="experience-ten-area-right">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-12">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="single-experience-ten-list d-block">
                                     <div class="icon"
                                         style="position: relative; left: 50%; top:10%; transform: translate(-50%, -10%); height:90px; width:90px; margin-bottom:10px;">
@@ -35,7 +35,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-12">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="single-experience-ten-list d-block">
                                     <div class="icon"
                                         style="position: relative; left: 50%; top:10%; transform: translate(-50%, -10%); height:90px; width:90px; margin-bottom:10px;">
@@ -120,7 +120,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-12">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="single-experience-ten-list d-block">
                                     <div class="icon"
                                         style="position: relative; left: 50%; top:10%; transform: translate(-50%, -10%); height:90px; width:90px; margin-bottom:10px;">
@@ -179,7 +179,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-12">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="single-experience-ten-list d-block">
                                     <div class="icon"
                                         style="position: relative; left: 50%; top:10%; transform: translate(-50%, -10%); height:90px; width:90px; margin-bottom:10px;">

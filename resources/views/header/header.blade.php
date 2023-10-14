@@ -38,7 +38,7 @@
                 <nav class="nav-main mainmenu-nav d-none d-xl-block">
                     <ul class="mainmenu">
                         <li>
-                            <a class="nav-item" href="#">Home</a>
+                            <a class="nav-item" href="/">Home</a>
                         </li>
                         <li class="has-droupdown">
                             <a class="nav-link" href="#">Services</a>
@@ -53,7 +53,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="nav-item" href="#">Contact</a></li>
+                        <li><a class="nav-item" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="call-area">

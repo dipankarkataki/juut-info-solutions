@@ -43,12 +43,12 @@
                     </div>
                     <div class="wized-2-body">
                         <div class="contact-info-1">
-                            <div class="icon">
+                            {{-- <div class="icon">
                                 <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="disc">
+                            </div> --}}
+                            <div class="disc" style="margin-left: 0px;">
                                 <span>Call Us 24/7</span>
-                                <a href="#" class="mb-3">+91-9874768819 (IN)</a>
+                                <a href="#" class="mb-3 mt-2">+91-9874768819 (IN)</a>
                                 <a href="#" class="mb-3">+1 224-518-4779 (OH, USA)</a>
                                 <a href="#" class="mb-3">+1 551-689-9431 (NJ, USA)</a>
                                 <a href="#" class="mb-3">+65-98925779 (Singapore)</a>

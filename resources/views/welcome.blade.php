@@ -49,6 +49,18 @@
             text-align: justify;
             padding: 15px;
         }
+
+        .rts-client-reviews-h2 .review-body p.disc {
+            border-bottom: 0px;
+        }
+        .rts-client-reviews-h2 .review-body p.disc {
+            font-size: 14.5px;
+            text-align: justify
+        }
+        .rts-client-reviews-h2 {
+            padding: 25px 25px 0px 25px;
+            border:0px;
+        }
     </style>
 </head>
 

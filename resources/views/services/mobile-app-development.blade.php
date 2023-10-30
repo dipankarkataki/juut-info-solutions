@@ -42,6 +42,10 @@
                             Our Process:
                         </p>
 
+                        <p class="disc">
+                            Our Process:
+                        </p>
+
                         <ul class="process-list">
                             <li>
                                 Concept to Reality: We work closely with you to understand your vision and objectives,

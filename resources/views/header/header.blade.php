@@ -45,7 +45,7 @@
                             <ul class="submenu menu-link3">
                                 <li class="sub-droupdown">
                                     <a class="nav-item" href="{{route('service.website-development')}}">Website Development</a>
-                                    <a class="nav-item" href="#">Mobile App Development</a>
+                                    <a class="nav-item" href="{{route('service.mobile-app-development')}}">Mobile App Development</a>
                                     <a class="nav-item" href="#">Software Development</a>
                                     <a class="nav-item" href="#">UI/UX Design</a>
                                     <a class="nav-item" href="#">Software Testing</a>

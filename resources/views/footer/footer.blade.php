@@ -15,7 +15,7 @@
                 <div class="footer-two-single-wized two">
                     <div class="wized-title-area">
                         <h5 class="wized-title">Our Services</h5>
-                        <img src="assets/images/footer/under-title-2.png" alt="juut-info-systems_footer">
+                        <img src="{{asset('assets/images/footer/under-title-2.png')}}" alt="juut-info-systems_footer">
                     </div>
                     <div class="wized-2-body">
                         <ul>
@@ -39,7 +39,7 @@
                 <div class="footer-two-single-wized">
                     <div class="wized-title-area">
                         <h5 class="wized-title">Contact Us</h5>
-                        <img src="assets/images/footer/under-title-2.png" alt="juut-info-systems_footer">
+                        <img src="{{asset('assets/images/footer/under-title-2.png')}}" alt="juut-info-systems_footer">
                     </div>
                     <div class="wized-2-body">
                         <div class="contact-info-1">

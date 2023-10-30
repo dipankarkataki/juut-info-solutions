@@ -1,113 +1,59 @@
 @extends('welcome')
 @section('title', 'Website Development')
 @section('custom-style')
-    {{-- <!-- start breadcrumb area -->
-    <div class="rts-breadcrumb-area breadcrumb-bg bg_image">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                    <h1 class="title">Service Details</h1>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="bread-tag">
-                        <a href="index.html">Home</a>
-                        <span> / </span>
-                        <a href="#" class="active">Service Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end breadcrumb area --> --}}
-
+    <style>
+        .service-thumbnail img {
+            height: 600px !important;
+            width: 100%;
+            object-position: top;
+            object-fit: cover;
+        }
+    </style>
+@endsection
+@section('content')
     <!-- start service details area -->
-    <div class="rts-service-details-area rts-section-gap">
+    <div class="rts-service-details-area rts-section-gap" style="margin-top:30px;">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 col-md-12 col-sm-12 col-12">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                     <!-- service details left area start -->
                     <div class="service-detials-step-1">
-                        <div class="thumbnail">
-                            <img src="assets/images/service/01.jpg" alt="business-area">
+                        <div class="thumbnail service-thumbnail">
+                            <img src="{{ asset('assets/images/service/bg-new.jpg') }}" alt="business-area">
                         </div>
-                        <h4 class="title">Business Growth Mangment</h4>
+                        <h4 class="title">Website Development</h4>
                         <p class="disc">
-                            Continually myocardinate holistic mindshare with client-based web services. Assertively
-                            e-enable catalysts for change before tested markets. Phosfluorescently maintain wireless
-                            scenarios after intermandated applications. Conveniently predominate revolutionary quality
-                            vectors through future-proof manufactured products. Enthusiastically transform distinctive
-                            collaboration.
+                            Our website development services are meticulously crafted to help your brand establish a
+                            commanding online presence. We specialize in creating websites that are not just visually
+                            appealing but also user-friendly and fully responsive to all devices. These websites are more
+                            than just an online presence; they are powerful tools designed to captivate your audience and
+                            drive tangible results.
 
                         </p>
+
                         <p class="disc">
-                            Intrinsicly coordinate multifunctional functionalities reliable potentialities. Objectively
-                            envisioneer high in convergence through collaborative networks. Interactively generate B2C
-                            e-tailers for business data restore fully researched relationships through resource
-                            maximizing results.
-                        </p>
-                        <div class="row g-5 mt--30 mb--40">
-                            <div class="col-lg-6">
-                                <!-- single service details card -->
-                                <div class="service-details-card">
-                                    <div class="thumbnail">
-                                        <img src="assets/images/service/icon/09.svg" alt="" class="icon">
-                                    </div>
-                                    <div class="details">
-                                        <h6 class="title">Instant Business Growth</h6>
-                                        <p class="disc">Maintain wireless scerios after sure quality vectors future</p>
-                                    </div>
-                                </div>
-                                <!-- single service details card End -->
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- single service details card -->
-                                <div class="service-details-card">
-                                    <div class="thumbnail">
-                                        <img src="assets/images/service/icon/10.svg" alt="" class="icon">
-                                    </div>
-                                    <div class="details">
-                                        <h6 class="title">24/7 Quality Service</h6>
-                                        <p class="disc">Maintain wireless scerios after sure quality vectors future</p>
-                                    </div>
-                                </div>
-                                <!-- single service details card End -->
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- single service details card -->
-                                <div class="service-details-card">
-                                    <div class="thumbnail">
-                                        <img src="assets/images/service/icon/11.svg" alt="" class="icon">
-                                    </div>
-                                    <div class="details">
-                                        <h6 class="title">Easy Customer Service</h6>
-                                        <p class="disc">Maintain wireless scerios after sure quality vectors future</p>
-                                    </div>
-                                </div>
-                                <!-- single service details card End -->
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- single service details card -->
-                                <div class="service-details-card">
-                                    <div class="thumbnail">
-                                        <img src="assets/images/service/icon/12.svg" alt="" class="icon">
-                                    </div>
-                                    <div class="details">
-                                        <h6 class="title">Quality Cost Service</h6>
-                                        <p class="disc">Maintain wireless scerios after sure quality vectors future</p>
-                                    </div>
-                                </div>
-                                <!-- single service details card End -->
-                            </div>
-                        </div>
-                        <p class="disc">
-                            Phosfluorescently maintain wireless scenarios after intermandated applications. Conveniently
-                            unique predominate revolutionary quality vectors through future-proof manufactured products.
-                            Objectively envisioneer high solution convergence through collaborative networks.
-                            Interactively generate B2C e-tailers for business data restore fully researched
-                            relationships through resource maximizing results.
+                            In the fast-paced digital landscape of today, having a strong online presence is a business
+                            imperative. Your website is often the initial point of interaction with potential customers, and
+                            it must make a lasting impact. This is where we come in – our expert web development team is
+                            committed to not just meeting but exceeding your expectations.
+
+                            Our responsive website design ensures that your online platform adapts seamlessly to various
+                            screen sizes, providing an exceptional user experience and contributing to higher search engine
+                            rankings. The user-friendliness and visual appeal of our websites are carefully designed to
+                            engage your audience and leave a memorable impression.
+
+                            At the core of our web development philosophy is the aim to achieve measurable results for your
+                            business. Whether it's enhancing lead generation, boosting online sales, or expanding your
+                            brand's reach, our websites are tailored to help you reach your specific objectives.
+
+                            In summary, our website development services empower your brand's online presence. We blend
+                            creativity, technology, and strategy to create websites that stand out in the digital landscape,
+                            ensuring your business's success. Contact us today to start your journey toward a robust online
+                            presence and increased business prosperity."
+
                         </p>
                     </div>
-                    <div class="service-detials-step-2 mt--40">
+                    {{-- <div class="service-detials-step-2 mt--40">
                         <h4 class="title">3 Simple Steps to Process</h4>
                         <p class="disc mb--25">
                             Assertively e-enable catalysts for change before fully tested markets. Phosfluo rescently is
@@ -169,7 +115,7 @@
                         <div class="row g-5 align-items-center">
                             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="thumbnail sm-thumb-service">
-                                    <img src="assets/images/service/sm-01.jpg" alt="Service">
+                                    <img src="{{ asset('assets/images/service/sm-01.jpg') }}" alt="Service">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
@@ -190,10 +136,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <!--rts blog wizered area -->
-                <div class="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
+                {{-- <div class="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
                     <!-- single wizered start -->
                     <div class="rts-single-wized Categories service">
                         <div class="wized-header">
@@ -275,13 +221,10 @@
                         </div>
                     </div>
                     <!-- single wizered End -->
-                </div>
+                </div> --}}
                 <!-- rts- blog wizered end area -->
             </div>
         </div>
     </div>
     <!-- End service details area -->
-@endsection
-@section('content')
-    
 @endsection

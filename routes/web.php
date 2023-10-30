@@ -30,5 +30,9 @@ Route::group(['prefix'=> 'services'], function () {
     Route::get('mobile-app-development', function(){ 
         return view('services.mobile-app-development');
     })->name('service.mobile-app-development');
+
+    Route::get('software-development', function(){ 
+        return view('services.software-development');
+    })->name('service.software-development');
 });
 

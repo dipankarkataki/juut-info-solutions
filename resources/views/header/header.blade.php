@@ -53,7 +53,7 @@
                                     <a class="nav-item" href="{{route('service.software-development')}}">Software Development</a>
                                     <a class="nav-item" href="{{route('service.ui-ux-design')}}">UI/UX Design</a>
                                     <a class="nav-item" href="{{route('service.software-testing')}}">Software Testing</a>
-                                    <a class="nav-item" href="#">Graphic Design</a>
+                                    <a class="nav-item" href="{{route('service.graphic-design')}}">Graphic Design</a>
                                 </li>
                             </ul>
                         </li>
@@ -62,7 +62,10 @@
                 </nav>
                 <div class="call-area">
                     <div class="icon">
-                        <a href="#call-us">
+                        @php
+                            $url = url('/');
+                        @endphp
+                        <a href="{{$url.'/'.'#call-us'}}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                             viewBox="0 0 30 30" fill="none">
                             <path

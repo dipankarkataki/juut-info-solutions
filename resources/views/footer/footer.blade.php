@@ -19,16 +19,18 @@
                     </div>
                     <div class="wized-2-body">
                         <ul>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>Website
+                            <li><a href="{{route('service.website-development')}}">
+                                <i class="fal fa-chevron-double-right"></i>Website
                                     Development</a></li>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>Mobile App
+                            <li>
+                                <a href="{{route('service.mobile-app-development')}}"><i class="fal fa-chevron-double-right"></i>Mobile App
                                     Development</a></li>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>Software
+                            <li><a href="{{route('service.software-development')}}"><i class="fal fa-chevron-double-right"></i>Software
                                     Development</a></li>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>UI/UX Design</a></li>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>Software Testing</a>
+                            <li><a href="{{route('service.ui-ux-design')}}"><i class="fal fa-chevron-double-right"></i>UI/UX Design</a></li>
+                            <li><a href="{{route('service.software-testing')}}"><i class="fal fa-chevron-double-right"></i>Software Testing</a>
                             </li>
-                            <li><a href="#"><i class="fal fa-chevron-double-right"></i>Graphic Design</a>
+                            <li><a href="{{route('service.graphic-design')}}"><i class="fal fa-chevron-double-right"></i>Graphic Design</a>
                             </li>
                         </ul>
                     </div>

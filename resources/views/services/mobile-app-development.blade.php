@@ -2,12 +2,6 @@
 @section('title', 'Mobile App Development')
 @section('custom-style')
     <style>
-        .service-thumbnail img {
-            height: 600px !important;
-            width: 100%;
-            object-position: center;
-            object-fit: cover;
-        }
 
         .process-list li {
             list-style-type: lower-alpha;

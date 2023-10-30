@@ -1,14 +1,6 @@
 @extends('welcome')
 @section('title', 'Website Development')
 @section('custom-style')
-    <style>
-        .service-thumbnail img {
-            height: 600px !important;
-            width: 100%;
-            object-position: top;
-            object-fit: cover;
-        }
-    </style>
 @endsection
 @section('content')
     <!-- start service details area -->

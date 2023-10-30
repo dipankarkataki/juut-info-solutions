@@ -32787,3 +32787,15 @@ p.disc {
   border-color: var(--color-primary-2);
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.service-thumbnail img {
+    height: 600px !important;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    border: 1px solid #fbf7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px #f5f5f5;
+}

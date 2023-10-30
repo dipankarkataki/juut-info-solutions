@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('dashboard.dashboard');
-});
+})->name('home');
 
 Route::get('terms-and-conditions', function(){
     return view('terms-and-conditions.terms-and-conditions');
@@ -42,5 +42,9 @@ Route::group(['prefix'=> 'services'], function () {
     Route::get('software-testing', function(){ 
         return view('services.software-testing');
     })->name('service.software-testing');
+
+    Route::get('graphic-design', function(){ 
+        return view('services.graphic-design');
+    })->name('service.graphic-design');
 });
 

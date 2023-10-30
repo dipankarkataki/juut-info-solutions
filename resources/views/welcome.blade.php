@@ -108,7 +108,7 @@
     <!-- rts team area ten end -->
 
     <!-- client area start -->
-    @include('our-clients.our-clients')
+    {{-- @include('our-clients.our-clients') --}}
     <!-- client area start -->
 
     <!-- testimonials area start -->

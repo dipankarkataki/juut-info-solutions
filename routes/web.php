@@ -34,5 +34,13 @@ Route::group(['prefix'=> 'services'], function () {
     Route::get('software-development', function(){ 
         return view('services.software-development');
     })->name('service.software-development');
+
+    Route::get('ui-ux-design', function(){ 
+        return view('services.ui-ux-design');
+    })->name('service.ui-ux-design');
+
+    Route::get('software-testing', function(){ 
+        return view('services.software-testing');
+    })->name('service.software-testing');
 });
 

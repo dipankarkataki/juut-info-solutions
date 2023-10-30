@@ -1,31 +1,35 @@
 <header class="header-two header--sticky">
-    <div class="header-top">
-        <div class="content">
-            <div class="left-header-top">
-                <p class="top-details">
-                    Are you ready to grow up your business? <a href="#">Contact Us <i
-                            class="fal fa-arrow-right"></i></a>
-                </p>
-            </div>
-            <div class="right-header-top">
-                <div class="working-time">
-                    <i class="far fa-clock"></i>
-                    <span>Working: 10.00am - 8.00pm (IST)</span>
+
+    @if (Request::segment(1) != 'services')
+        <div class="header-top">
+            <div class="content">
+                <div class="left-header-top">
+                    <p class="top-details">
+                        Are you ready to grow up your business? <a href="#">Contact Us <i
+                                class="fal fa-arrow-right"></i></a>
+                    </p>
                 </div>
-                <div class="ht-social">
-                    <span>Visit Us:</span>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/juut.info.systems/about" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
-                        {{-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> --}}
-                        {{-- <li><a href="#"><i class="fab fa-instagram"></i></a></li> --}}
-                    </ul>
+                <div class="right-header-top">
+                    <div class="working-time">
+                        <i class="far fa-clock"></i>
+                        <span>Working: 10.00am - 8.00pm (IST)</span>
+                    </div>
+                    <div class="ht-social">
+                        <span>Visit Us:</span>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/juut.info.systems/about" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
+                            {{-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> --}}
+                            {{-- <li><a href="#"><i class="fab fa-instagram"></i></a></li> --}}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    @endif
+    
     <div class="main-header">
         <div class="content">
             <div class="header-left">
@@ -47,8 +51,8 @@
                                     <a class="nav-item" href="{{route('service.website-development')}}">Website Development</a>
                                     <a class="nav-item" href="{{route('service.mobile-app-development')}}">Mobile App Development</a>
                                     <a class="nav-item" href="{{route('service.software-development')}}">Software Development</a>
-                                    <a class="nav-item" href="#">UI/UX Design</a>
-                                    <a class="nav-item" href="#">Software Testing</a>
+                                    <a class="nav-item" href="{{route('service.ui-ux-design')}}">UI/UX Design</a>
+                                    <a class="nav-item" href="{{route('service.software-testing')}}">Software Testing</a>
                                     <a class="nav-item" href="#">Graphic Design</a>
                                 </li>
                             </ul>

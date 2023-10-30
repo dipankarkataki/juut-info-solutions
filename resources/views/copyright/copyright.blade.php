@@ -8,9 +8,17 @@
                     </p>
                     <div class="right">
                         <ul>
-                            <li><a href="{{route('terms.and.conditions')}}" target="_blank">Terms & Conditions</a></li>
-                            {{-- <li><a href="#">Faq</a></li>
-                            <li><a href="contactus.html">Contact</a></li> --}}
+                            <li>
+                                <a href="{{route('terms.and.conditions')}}" target="_blank">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <span style="color: #0553b5;margin-right: 10px;font-weight: 500;">Visit Us: </span>
+                                <a href="https://www.facebook.com/juut.info.systems/about" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
+                            {{-- <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>

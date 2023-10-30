@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard.dashboard');
 });
 
 Route::get('terms-and-conditions', function(){
     return view('terms-and-conditions.terms-and-conditions');
 })->name('terms.and.conditions');
+
+
+Route::group(['prefix'=> 'services'], function () {
+    Route::get('website-development', function(){ 
+        return view('services.website-development');
+    })->name('service.website-development');
+});
+

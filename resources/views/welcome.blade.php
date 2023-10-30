@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juut Info Systems</title>
+    <title> @yield('title') | Juut Info Systems</title>
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/logo/favicon/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/logo/favicon/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/logo/favicon/apple-icon-72x72.png') }}">
@@ -39,29 +39,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-    <style>
-        .single-experience-ten-list p.disc {
-            max-width: 100% !important;
-            text-align: center;
-        }
+    @yield('custom-style')
 
-        .inner p.disc {
-            text-align: justify;
-            padding: 15px;
-        }
-
-        .rts-client-reviews-h2 .review-body p.disc {
-            border-bottom: 0px;
-        }
-        .rts-client-reviews-h2 .review-body p.disc {
-            font-size: 14.5px;
-            text-align: justify
-        }
-        .rts-client-reviews-h2 {
-            padding: 25px 25px 0px 25px;
-            border:0px;
-        }
-    </style>
+    
 </head>
 
 <body class="home-blue home-ten">
@@ -71,52 +51,8 @@
     @include('sidebar.sidebar')
     <!-- ENd Header Area -->
 
+    @yield('content')
 
-    <!-- banner ten area start -->
-    @include('banner.banner')
-    <!-- banner ten area end -->
-
-
-    <!-- About Us -->
-
-    @include('about-us.about-us')
-
-    <!-- End About Us -->
-
-
-    <!-- awesome startupo service area start -->
-    @include('startup-service.startup-service')
-    <!-- awesome startupo service area end -->
-
-
-
-    <!-- Get free consultancy start -->
-    @include('consultancy.consultancy')
-    <!-- Get free consultancy end -->
-
-    <!-- what sets us apart start -->
-    @include('what-sets-us-apart.what-sets-us-apart')
-    <!-- what sets us apart end -->
-
-    <!-- Our Mission start -->
-    @include('our-mission.our-mission')
-    <!-- Our Mission Ends -->
-
-
-    <!-- rts team area ten start -->
-    {{-- @include('our-team.our-team') --}}
-    <!-- rts team area ten end -->
-
-    <!-- client area start -->
-    {{-- @include('our-clients.our-clients') --}}
-    <!-- client area start -->
-
-    <!-- testimonials area start -->
-    @include('testimonial.testimonial')
-    <!-- testimonials area end -->
-
-
-    <!-- start header area -->
     <!-- footer area start -->
     @include('footer.footer')
     <!-- footer area end -->

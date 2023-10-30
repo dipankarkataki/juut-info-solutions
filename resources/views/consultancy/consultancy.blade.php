@@ -1,4 +1,4 @@
-<div class="cta-area--ten cta-ten-bg bg_image rts-section-gap">
+<div class="cta-area--ten cta-ten-bg bg_image rts-section-gap" id="call-us">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12"></div>

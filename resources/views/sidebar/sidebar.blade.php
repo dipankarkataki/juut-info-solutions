@@ -3,13 +3,13 @@
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" style="max-height:100px;"
+            <a class="logo-1" href="/"><img class="logo" style="max-height:100px;"
                     src="{{ asset('assets/images/logo/juut.png') }}" alt="juut_info_systems_logo"></a>
-            <a class="logo-2" href="index.html"><img class="logo" style="max-height:100px;"
+            <a class="logo-2" href="/"><img class="logo" style="max-height:100px;"
                     src="{{ asset('assets/images/logo/juut.png') }}" alt="juut_info_systems_logo"></a>
-            <a class="logo-3" href="index.html"><img class="logo" style="max-height:100px;"
+            <a class="logo-3" href="/"><img class="logo" style="max-height:100px;"
                     src="{{ asset('assets/images/logo/juut.png') }}" alt="juut_info_systems_logo"></a>
-            <a class="logo-4" href="index.html"><img class="logo" style="max-height:100px;"
+            <a class="logo-4" href="/"><img class="logo" style="max-height:100px;"
                     src="{{ asset('assets/images/logo/juut.png') }}" alt="juut_info_systems_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
@@ -45,11 +45,11 @@
                         </div>
                         <!-- single ENd -->
                     </div>
-                    <div class="social-wrapper-two menu">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <div class="social-wrapper-two menu text-center">
+                        <a href="https://www.facebook.com/juut.info.systems/about"><i class="fab fa-facebook-f"></i></a>
+                        {{-- <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a> --}}
+                        {{-- <a href="#"><i class="fab fa-whatsapp"></i></a> --}}
                         <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                     </div>
                 </div>

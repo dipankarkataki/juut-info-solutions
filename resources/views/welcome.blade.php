@@ -39,6 +39,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
+    <!--- Toastr Notification-->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
     @yield('custom-style')
 
     
@@ -86,7 +89,12 @@
 
     <!-- main Js -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+
+    <!--- Toastr js -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <!-- scripts end form hear -->
+
+    @yield('custom-scripts')
 </body>
 
 </html>

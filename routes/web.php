@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,5 +51,33 @@ Route::group(['prefix'=> 'services'], function () {
     Route::get('contact-us', function(){ 
         return view('services.contact-us.contact-us');
     })->name('service.contact-us');
+
+    
 });
+
+Route::get('mail', function(){ 
+    return view('mail.contact-mail');
+})->name('mail.contact-mail');
+
+Route::post('send-mail', function (Request $request) {
+
+    try{
+        $details = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'inquiry_for' => $request->inquiry_for,
+            'message' => $request->message
+        ];
+       
+        \Mail::to('contact@juutinfosystems.com')->send(new \App\Mail\ContactMail($details));
+
+        return back()->with('success', 'Mail Sent Successfully');
+
+    }catch(\Exception $e){
+        return back()->with('error', 'Oops! Something Went Wrong. Mail Not Sent.');
+    }
+   
+    
+   
+})->name('contact.send-email');
 

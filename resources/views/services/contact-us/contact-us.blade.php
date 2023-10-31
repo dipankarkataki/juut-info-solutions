@@ -1,6 +1,11 @@
 @extends('welcome')
 @section('title', 'Contact Us')
 @section('custom-style')
+    <style>
+        .toast{
+            font-size:18px;
+        }
+    </style>
 @endsection
 @section('content')
 
@@ -18,14 +23,15 @@
                         </div>
                         <div class="form-wrapper">
                             <div id="form-messages"></div>
-                            <form id="contact-form" action="https://reactheme.com/products/html/finbiz/mailer.php" method="post">
+                            <form  action="{{route('contact.send-email')}}" method="post">
+                                @csrf
                                 <div class="name-email">
                                     <input type="text" name="name" placeholder="Your Name" required>
                                     <input type="email" name="email" placeholder="Email Address" required>
                                 </div>
-                                <input type="text" name="subject" placeholder="Your Subject">
-                                <textarea placeholder="Type Your Message" name="message"></textarea>
-                                <button type="submit" class="rts-btn btn-primary">Send Message</button>
+                                <input type="text" name="inquiry_for" placeholder="Inquiry For" required>
+                                <textarea placeholder="Type Your Message" name="message" required></textarea>
+                                <button type="submit" class="rts-btn btn-primary" onclick="this.innerHTML = 'Please Wait...';">Send Message</button>
                             </form>
                         </div>
                     </div>
@@ -34,4 +40,23 @@
         </div>
     </div>
     <!-- conact us form fluid end -->
+@endsection
+
+@section('custom-scripts')
+    <script>
+
+        @if (session('success'))
+            toastr.success('{{ session('success') }}', '', {
+                positionClass: 'toast-top-right',
+                timeOut: 3000 
+            });
+        @endif
+
+        @if (session('error'))
+            toastr.error('{{ session('error') }}', '', {
+                positionClass: 'toast-top-right',
+                timeOut: 3000 
+            });
+        @endif
+    </script>
 @endsection

@@ -74,7 +74,7 @@ Route::post('send-mail', function (Request $request) {
         return back()->with('success', 'Mail Sent Successfully');
 
     }catch(\Exception $e){
-        return back()->with('error', 'Oops! Something Went Wrong. Mail Not Sent.');
+        return back()->with('error', 'Oops! Something Went Wrong. Mail Not Sent.'.$e->getMessage() );
     }
    
     

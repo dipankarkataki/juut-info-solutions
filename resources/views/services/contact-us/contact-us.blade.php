@@ -31,7 +31,7 @@
                                 </div>
                                 <input type="text" name="inquiry_for" placeholder="Inquiry For" required>
                                 <textarea placeholder="Type Your Message" name="message" required></textarea>
-                                <button type="submit" class="rts-btn btn-primary" onclick="this.innerHTML = 'Please Wait...';">Send Message</button>
+                                <button type="submit" class="rts-btn btn-primary" onclick="this.innerHTML = 'Sending....Please Wait.';">Send Message</button>
                             </form>
                         </div>
                     </div>

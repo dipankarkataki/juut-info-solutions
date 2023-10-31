@@ -65,22 +65,22 @@
                             <a class="menu-link" href="#">Services</a>
                             <ul class="submenu">
                                 <li class="menu-item">
-                                    <a href="#">Website Development</a>
+                                    <a href="{{route('service.website-development')}}">Website Development</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">Mobile App Development</a>
+                                    <a href="{{route('service.mobile-app-development')}}">Mobile App Development</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">Software Development</a>
+                                    <a href="{{route('service.software-development')}}">Software Development</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">UI/UX Design</a>
+                                    <a href="{{route('service.ui-ux-design')}}">UI/UX Design</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">Software Testing</a>
+                                    <a href="{{route('service.software-testing')}}">Software Testing</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">Graphic Design</a>
+                                    <a href="{{route('service.graphic-design')}}">Graphic Design</a>
                                 </li>
                             </ul>
                         </li>
@@ -90,12 +90,12 @@
                 </nav>
                 <div class="social-wrapper-two menu mobile-menu">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    {{-- <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a> --}}
                     <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                 </div>
-                <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Book a
+                <a href="{{route('service.contact-us')}}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Book a
                     Meeting</a>
             </div>
         </div>

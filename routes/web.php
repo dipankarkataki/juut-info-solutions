@@ -46,5 +46,9 @@ Route::group(['prefix'=> 'services'], function () {
     Route::get('graphic-design', function(){ 
         return view('services.graphic-design');
     })->name('service.graphic-design');
+
+    Route::get('contact-us', function(){ 
+        return view('services.contact-us.contact-us');
+    })->name('service.contact-us');
 });
 

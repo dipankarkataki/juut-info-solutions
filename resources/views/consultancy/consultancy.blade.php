@@ -9,7 +9,7 @@
                     </h2>
 
                     <div class="callto-action-contact-area">
-                        <a href="#" class="rts-btn btn-primary-2">Make Appointment</a>
+                        <a href="{{route('service.contact-us')}}" class="rts-btn btn-primary-2">Make Appointment</a>
                         <div class="call-area">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"

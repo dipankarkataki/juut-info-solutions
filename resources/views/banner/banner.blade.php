@@ -11,7 +11,7 @@
 
                     <p class="disc">We believe that every business, no matter the size or industry, deserves to
                         thrive in today's dynamic economic landscape.</p>
-                    <a href="#" class="rts-btn btn-primary-2">Book a Meeting</a>
+                    <a href="{{route('service.contact-us')}}" class="rts-btn btn-primary-2">Book a Meeting</a>
                 </div>
                 <!-- banner inner-content ten area end -->
             </div>

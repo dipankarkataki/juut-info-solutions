@@ -8,7 +8,7 @@
                         <span>Ready To</span> <br>
                         Work With Us?
                     </h3>
-                    <a class="rts-btn btn-primary-2 color-h-black" href="#">Book a Meeting</a>
+                    <a class="rts-btn btn-primary-2 color-h-black" href="{{route('service.contact-us')}}">Book a Meeting</a>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">

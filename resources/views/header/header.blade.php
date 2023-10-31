@@ -82,7 +82,7 @@
                         </a>
                     </div> --}}
                 </div>
-                <a class="rts-btn btn-primary-2 menu-block-none" href="#">Book a Meeting</a>
+                <a class="rts-btn btn-primary-2 menu-block-none" href="{{route('service.contact-us')}}">Book a Meeting</a>
                 <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20">
                     <img class="menu-dark" src="{{asset('assets/images/icon/menu.png')}}" alt="Menu-icon">
                     <img class="menu-light" src="{{asset('assets/images/icon/menu-light.png')}}" alt="Menu-icon">

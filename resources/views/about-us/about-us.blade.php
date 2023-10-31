@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="rts-btn btn-primary-2">Book a Meeting</a>
+                        <a href="{{route('service.contact-us')}}" class="rts-btn btn-primary-2">Book a Meeting</a>
                     </div>
                     <!-- end -->
                 </div>

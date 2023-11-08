@@ -5,8 +5,8 @@
                 <div class="title-area testimonials-area-h2 text-center">
                     <span>Customer
                         Testimonial</span>
-                    <h2 class="title">356+
-                        Customer Feedback’s</h2>
+                    {{-- <h2 class="title">356+
+                        Customer Feedback’s</h2> --}}
                 </div>
             </div>
         </div>
